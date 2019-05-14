@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  webapplication9:
+    image: webapplication9
+    build:
+      context: .
+      dockerfile: WebApplication9/Dockerfile
